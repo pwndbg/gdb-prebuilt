@@ -1,5 +1,5 @@
 #!/bin/sh
-
+set -ex
 
 for V in 7.7 7.11.1; do
 for P in 2.7 3; do
