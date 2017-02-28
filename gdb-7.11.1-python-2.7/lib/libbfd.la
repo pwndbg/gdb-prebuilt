@@ -17,7 +17,7 @@ old_library='libbfd.a'
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/usr/local/google/home/riggle/gdb-static/gdb-prebuilt/gdb-7.11.1/zlib -lz -ldl'
+dependency_libs=' -L~/gdb-prebuilt/gdb-7.11.1/zlib -lz -ldl'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/usr/local/google/home/riggle/gdb-static/gdb-prebuilt/gdb-7.11.1-python-2.7/lib'
+libdir='~/gdb-prebuilt/gdb-7.11.1-python-2.7/lib'
